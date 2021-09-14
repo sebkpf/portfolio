@@ -14,7 +14,7 @@ h1 {
   width: calc(100vw - 64px);
   font-size: 16px;
   line-height: 1.5em;
-  color: #AAABBC;
+  color: #aaabbc;
   font-weight: 400;
   letter-spacing: 0.07em;
   text-transform: uppercase;
@@ -28,7 +28,7 @@ h2 {
   font-weight: 700;
 }
 h3 {
-  color: #046E8F;
+  color: #046e8f;
   font-size: 22px;
   font-weight: 700;
   line-height: 1.6;
@@ -43,7 +43,8 @@ h4 {
   line-height: 1.6;
   text-align: center;
 }
-a, a:visited {
+a,
+a:visited {
   text-decoration: none;
   color: inherit;
 }
@@ -51,12 +52,15 @@ a, a:visited {
   padding: 0px 32px;
   align-items: flex-start;
 }
-#about, #skills, #work {
+#about,
+#skills,
+#work {
   padding-top: 2rem;
   padding-bottom: 3rem;
 }
-#about, #skills {
-  border-bottom: 1px solid #AAABBC;
+#about,
+#skills {
+  border-bottom: 1px solid #aaabbc;
 }
 
 /* HEADER */
@@ -64,7 +68,7 @@ header {
   background-color: #00071c;
   color: white;
   height: 100vh;
-  transition: 0.5s background ease-in-out, 0.5s opacity ease-in-out ;
+  transition: 0.5s background ease-in-out, 0.5s opacity ease-in-out;
   margin-bottom: 5vh;
 }
 .landing {
@@ -84,14 +88,14 @@ header {
   animation: type 4s;
   overflow: hidden;
 }
-.intro h2:first-of-type { 
-  animation-delay: .5s;
+.intro h2:first-of-type {
+  animation-delay: 0.5s;
 }
 .intro h2:last-of-type {
   animation-delay: 1s;
 }
 .arrow {
-  color: #AAABBC;
+  color: #aaabbc;
   opacity: 0;
   font-size: 14px;
   font-weight: 400;
@@ -112,29 +116,31 @@ nav {
   justify-content: space-between;
   position: sticky;
   top: 0;
-  background-color: #00071C;
+  background-color: #00071c;
   color: #fff;
   z-index: 100;
-  transition: 0.5s background ease-in-out, 0.5s opacity ease-in-out ;
+  transition: 0.5s background ease-in-out, 0.5s opacity ease-in-out;
   align-items: center !important;
 }
-nav a:hover, .active {
-  color: #DB5461 !important;
+nav a:hover,
+.active {
+  color: #db5461 !important;
 }
-nav > a, nav > ul {
+nav > a,
+nav > ul {
   padding: 1rem 0;
 }
 nav > ul {
   display: flex;
   text-transform: uppercase;
-  font-size: calc(14px + 2 * ((100vw - 576px)/(1200)));
+  font-size: calc(14px + 2 * ((100vw - 576px) / (1200)));
 }
 nav > ul > li {
   margin-left: 10px;
 }
 .logo {
   font-weight: 700;
-  font-size: calc(22px + 2 * ((100vw - 576px)/(1200)));
+  font-size: calc(22px + 2 * ((100vw - 576px) / (1200)));
   transition: all 0.1s ease;
 }
 .logo:hover {
@@ -152,20 +158,17 @@ nav > ul > li {
   height: 2em;
   font-size: 14px;
   border-radius: 20px;
-  border: 1px solid #046E8F;
-  color: #046E8F !important;
+  border: 1px solid #046e8f;
+  color: #046e8f !important;
   text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition:
-    color .15s ease-in-out,
-    background-color .15s ease-in-out,
-    border-color .15s ease-in-out,
-    box-shadow .15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .resume:hover {
-  background-color: #046E8F;
+  background-color: #046e8f;
   color: white !important;
 }
 
@@ -175,11 +178,11 @@ nav > ul > li {
   flex-wrap: wrap;
 }
 #skills li {
-  font-size: .9em;
+  font-size: 0.9em;
   font-weight: 300;
-  border: 1px solid #DB5461;
+  border: 1px solid #db5461;
   border-radius: 30px;
-  background-color: #DB5461;
+  background-color: #db5461;
   color: white;
   padding: 5px 10px;
   margin-right: 10px;
@@ -187,7 +190,10 @@ nav > ul > li {
 }
 
 /* WORK */
-#work ul, .card, .card-demo, .card-desc {
+#work ul,
+.card,
+.card-demo,
+.card-desc {
   display: flex;
   flex-direction: column;
 }
@@ -196,9 +202,10 @@ nav > ul > li {
   margin-top: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
-  border-bottom: 1px solid #AAABBC;
+  border-bottom: 1px solid #aaabbc;
 }
-.card-demo, .card-desc {
+.card-demo,
+.card-desc {
   width: 100%;
 }
 .card-demo {
@@ -214,7 +221,7 @@ nav > ul > li {
 .card-desc p {
   max-width: 390px;
   align-self: center;
-  color: #AAABBC;
+  color: #aaabbc;
   line-height: 1.6;
   margin-top: 10px;
   margin-bottom: 30px;
@@ -224,22 +231,22 @@ nav > ul > li {
   vertical-align: middle !important;
   margin-left: 10px;
   color: white;
-  background-color: #046E8F;
+  background-color: #046e8f;
   display: inline-block;
-  padding: .25em .4em;
+  padding: 0.25em 0.4em;
   font-size: 75%;
   font-weight: 700;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
 }
 .card-btn {
   border: 1px solid transparent;
   border-radius: 30px;
-  border-color: #046E8F;
-  color: #046E8F;
+  border-color: #046e8f;
+  color: #046e8f;
   padding: 12px 30px;
   margin-left: 15px;
   margin-right: 15px;
@@ -252,24 +259,21 @@ nav > ul > li {
   font-size: 1rem;
   line-height: 1.5;
   text-decoration: none;
-  transition:
-    color .15s ease-in-out,
-    background-color .15s ease-in-out,
-    border-color .15s ease-in-out,
-    box-shadow .15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .card-btn:visited {
-  color: #046E8F;
+  color: #046e8f;
 }
 .card-btn:hover {
   color: white;
-  background-color: #046E8F;
+  background-color: #046e8f;
 }
 
 /* SIDEBAR */
 aside {
   min-width: 200px;
-  transition: 0.5s background ease-in-out, 0.5s opacity ease-in-out ;
+  transition: 0.5s background ease-in-out, 0.5s opacity ease-in-out;
 }
 .contact-list {
   display: flex;
@@ -277,7 +281,7 @@ aside {
   font-size: 25px;
 }
 .contact-list a:hover {
-  color: #DB5461;
+  color: #db5461;
 }
 .contact-list li {
   margin-left: 10px;
@@ -286,7 +290,7 @@ aside {
   margin-bottom: 5px;
 }
 .lang-lv {
-  color: #AAABBC;
+  color: #aaabbc;
 }
 
 /* TO TOP BUTTON */
@@ -298,35 +302,35 @@ aside {
   z-index: 99;
   display: flex;
   justify-content: flex-end;
-  transition: 0.5s background ease-in-out, 0.5s opacity ease-in-out ;
+  transition: 0.5s background ease-in-out, 0.5s opacity ease-in-out;
 }
 .to-top-btn {
-  width: 48px;
-  height: 48px;
+  width: 35px;
+  height: 35px;
   border: 1px solid transparent;
-  border-color: #046E8F;
-  color: #046E8F !important;
+  border-color: #046e8f;
+  color: #046e8f !important;
   border-radius: 24px;
   text-align: center;
   vertical-align: middle;
-  font-size: 28px;
+  font-size: 20px;
   line-height: 1.8;
 }
 .to-top-btn:hover {
-  background-color: #046E8F;
-  color: #DB5461 !important;
+  background-color: #046e8f;
+  color: #db5461 !important;
 }
 
 /* FOOTER */
 footer {
   background-color: #00071c;
-  color: #AAABBC;
+  color: #aaabbc;
   text-align: center;
   padding: 1.25rem;
   line-height: 1.5;
 }
 footer a:hover {
-  color: #046E8F;
+  color: #046e8f;
 }
 
 /* ANIMATIONS */
@@ -366,15 +370,17 @@ footer a:hover {
     font-size: 32px;
   }
   h3 {
-    font-size: calc(22px + 12 * ((100vw - 576px)/(1200)));
+    font-size: calc(22px + 12 * ((100vw - 576px) / (1200)));
   }
   h4 {
-    font-size: calc(20px + 8 * ((100vw - 576px)/(1200)));
+    font-size: calc(20px + 8 * ((100vw - 576px) / (1200)));
   }
   nav > ul > li {
     margin-left: 20px;
   }
-  #about, #skills, #work {
+  #about,
+  #skills,
+  #work {
     padding-top: 4rem;
     padding-bottom: 6rem;
   }
@@ -383,7 +389,7 @@ footer a:hover {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1919px){
+@media (min-width: 992px) and (max-width: 1919px) {
   h1 {
     width: calc(75vw);
     font-size: 18px;
@@ -396,10 +402,10 @@ footer a:hover {
     font-size: 34px;
   }
   h4 {
-    font-size: calc(20px + 8 * ((100vw - 576px)/(1200)));
+    font-size: calc(20px + 8 * ((100vw - 576px) / (1200)));
   }
   .intro {
-    animation: type 6s;  
+    animation: type 6s;
   }
   .arrow {
     animation-delay: 3s;
@@ -423,7 +429,9 @@ footer a:hover {
   .content {
     margin-left: 5em;
   }
-  #about, #skills, #work {
+  #about,
+  #skills,
+  #work {
     padding-top: 3rem;
     padding-bottom: 5rem;
   }
@@ -451,7 +459,7 @@ footer a:hover {
     font-size: 28px;
   }
   .intro {
-    animation: type 6s;  
+    animation: type 6s;
   }
   .arrow {
     font-size: 16px;
@@ -476,7 +484,9 @@ footer a:hover {
   .content {
     margin-left: 5em;
   }
-  #about, #skills, #work {
+  #about,
+  #skills,
+  #work {
     padding-top: 3rem;
     padding-bottom: 5rem;
   }
