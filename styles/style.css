@@ -37,7 +37,7 @@ h3 {
 .content h3 {
   margin-bottom: 35px;
 }
-h4 {
+h5 {
   font-size: 20px;
   font-weight: 700;
   line-height: 1.6;
@@ -217,6 +217,7 @@ nav > ul > li {
 }
 .card-desc {
   text-align: center;
+  align-items: center;
 }
 .card-desc p {
   max-width: 390px;
@@ -268,6 +269,10 @@ nav > ul > li {
 .card-btn:hover {
   color: white;
   background-color: #046e8f;
+}
+.code {
+  display: flex;
+  flex-direction: column;
 }
 
 /* SIDEBAR */
@@ -372,7 +377,7 @@ footer a:hover {
   h3 {
     font-size: calc(22px + 12 * ((100vw - 576px) / (1200)));
   }
-  h4 {
+  h5 {
     font-size: calc(20px + 8 * ((100vw - 576px) / (1200)));
   }
   nav > ul > li {
@@ -401,7 +406,7 @@ footer a:hover {
   h3 {
     font-size: 34px;
   }
-  h4 {
+  h5 {
     font-size: calc(20px + 8 * ((100vw - 576px) / (1200)));
   }
   .intro {
@@ -455,7 +460,7 @@ footer a:hover {
   h3 {
     font-size: 34px;
   }
-  h4 {
+  h5 {
     font-size: 28px;
   }
   .intro {
